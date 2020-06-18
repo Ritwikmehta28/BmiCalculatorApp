@@ -30,6 +30,7 @@ class _InputPageState extends State<InputPage> {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
+            //Widget for Male
             Expanded(
               child: Row(
                 children: <Widget>[
@@ -37,7 +38,7 @@ class _InputPageState extends State<InputPage> {
                     child: ReusableCard(
                       onPress: () {
                         setState(() {
-                          genderSelected = Gender.female;
+                          genderSelected = Gender.male;
                         });
                       },
                       cardChild: ColumnGender(
@@ -49,6 +50,7 @@ class _InputPageState extends State<InputPage> {
                           : kInactiveCardColour,
                     ),
                   ),
+                  //Widget for Female
                   Expanded(
                     child: ReusableCard(
                       onPress: () {
@@ -66,6 +68,7 @@ class _InputPageState extends State<InputPage> {
                 ],
               ),
             ),
+            //This is the Centre Slider height widget.
             Expanded(
               child: ReusableCard(
                 cardChild: Column(
