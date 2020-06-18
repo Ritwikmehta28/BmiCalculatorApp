@@ -4,6 +4,7 @@ import 'ColumnGender.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'constants.dart';
 
+//These are the gender Enums
 enum Gender {
   male,
   female,
