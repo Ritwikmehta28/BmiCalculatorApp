@@ -14,3 +14,8 @@ const kIntTextStyle = TextStyle(
   fontSize: 50.0,
   fontWeight: FontWeight.w900,
 );
+
+const kBigButton = TextStyle(
+  fontWeight: FontWeight.bold,
+  fontSize: 25.0,
+);
